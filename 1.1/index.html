@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>GG_1.1</title>
-    <link rel="stylesheet" href="css\stylesheet.css">
-    
-</head>
-<body>
-<div class="container">
-    <h1>Basic validation</h1>
-    <p>Please input email and password</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\styles.css" />
 
-    <form action="#">
-        <div>
+    <!-- *font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+    <!-- */font -->
+
+    <title>Register Form</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="heading-form">
+        <h1>WELCOME TO GIGIH</h1>
+      </div>
+      <div class="content-Form">
+        <h2>Register Form</h2>
+        <form action="#">
+          <div class="email-form">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            <div id="emailValidationError" class="error"></div>
-        </div>
-
-        <div>
+            <input type="email" id="email" required />
+            <span id="email-error"></span>
+          </div>
+          <div class="password-form">
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required>
-            <div id="passwordValidationError" class="error"></div>
-        </div>
-
-        <div>
-            <button type="submit">Submit</button>
-        </div>
-
-        <div>
-            <button type="reset">Reset</button>
-        </div>
-    </form>
-</div>
-
-<script type = "text/javascript" src="js\functions.js"></script>
-</body>
+            <input type="password" id="password" required />
+            <span id="password-error"></span>
+          </div>
+          <input type="submit" class="bton" />
+        </form>
+      </div>
+    </div>
+    <script src="js\index.js"></script>
+  </body>
 </html>

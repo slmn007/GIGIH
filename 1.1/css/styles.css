@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: url("../background.png"), lightgray 0% 0% / 50px 50px repeat;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    padding: 235px 388px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    display: flex;
+    height: 553px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.heading-form {
+    display: flex;
+    width: 664px;
+    height: 75px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 16px;
+    background: #000;
+}
+
+.heading-form h1 {
+    height: 100%;
+    color: #FFF;
+    font-family: Lalezar;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    margin: 0 0;
+}
+
+.content-Form {
+    border-radius: 13px;
+    background: #FFF;
+    display: flex;
+    padding: 10px 20px 30px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-Form h2{
+    color: #3E6AAC;
+    text-align: center;
+    font-family: Lalezar;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    width: 500px;
+    border-bottom: 3px solid #3E6AAC;
+    margin: 0 0;
+}
+
+.content-Form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-form, .password-form {
+    display: flex;
+    width: 495px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.email-form label {
+    color: #000;
+    font-family: Lalezar;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+
+    display: flex;
+    width: 495px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.email-form input {
+    width: 495px;
+    height: 39px;
+    flex-shrink: 0;
+    border: 1px solid #3E6AAC;
+}
+
+.password-form label {
+    color: #000;
+    font-family: Lalezar;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+
+    display: flex;
+    width: 495px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.password-form input {
+    width: 495px;
+    height: 39px;
+    flex-shrink: 0;
+    border: 1px solid #3E6AAC;
+}
+
+.email-form, .password-form span {
+    color: red;
+}
+
+.bton {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    border-radius: 8px;
+    background: #33B249;  
+    width: 185px;
+    height: 64px;
+}
+
+
+
