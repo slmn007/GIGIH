@@ -1,0 +1,50 @@
+[
+    {
+        "artist" : "Eve",
+        "title" : "Kakai Kitan",
+        "duration": "03:45"
+    },
+
+    {
+        "artist" : "SPYAIR",
+        "title" : "Imagination",
+        "duration": "03:35"
+    },
+
+    {
+        "artist" : "3-Nen E-Gumi Utatan",
+        "title" : "Bye Bye Yesterday",
+        "duration": "04:15"
+    },
+
+    {
+        "artist" : "Ikimono Gakari",
+        "title" : "Blue Bird",
+        "duration": "03:45"
+    },
+
+    {
+        "artist" : "Rookiez Is Punk'd",
+        "title" : "Complication",
+        "duration": "04:45"
+    },
+
+    {
+        "artist" : "BURNOUT SYNDROMES",
+        "title" : "Hikari Are",
+        "duration": "03:25"
+    },
+
+    {
+        "artist" : "Linken Horizon",
+        "title" : "Guren no Yumiya",
+        "duration": "03:00"
+    },
+
+    {
+        "artist" : "Aimer",
+        "title" : "Zankyou Sanka",
+        "duration": "03:25"
+    }
+
+]

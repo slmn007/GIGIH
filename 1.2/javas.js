@@ -60,35 +60,38 @@ function printSongListPromise(songListPromise) {
     });
 }
 
-// let prom = new Promise((resolve, reject) => {
+const songList = [
+  { title: "Hikaru Nara", artists: [{ name: "Orange 7" }], duration: 200 },
+  { title: "Flow", artists: [{ name: "Sign" }], duration: 200 },
+  { title: "Rokudenasi", artists: [{ name: "Roku" }], duration: 200 },
+];
 
-//     let songs = {
-//         title: "song title",
-//         artists: [{ name: "artist name 1" }],
-//         duration: 200,
-//       };
+let prom = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(songList);
+    // reject("Track musik tidak ditemukan!");
+  }, 3000);
+  setTimeout(() => reject(new Error("Whoops!")), 3000);
+});
 
-//       songs.forEach(songs.key => {
-//         console.log('Hello');
-//       });
+// printSongListPromise(prom);
 
-//     // if (songs.lenght !== '') {
+async function printSongListAwait(song_list) {
+  let prom = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(song_list);
+      // reject("Track musik tidak ditemukan!");
+    }, 3000);
+    setTimeout(() => reject(new Error("Whoops!")), 3000);
+  });
 
-//     // } else {
-
-//     // }
-
-//     // resolve(printSongListPromise(songs));
-//     // reject();
-// })
-
-let songs = {
-  title: "song title",
-  artists: [{ name: "artist name 1" }],
-  duration: 200,
-};
-
-for (let index = 0; index < songs.length; index++) {
-  let song = songs[index];
+  // console.log(prom);
+  await printSongListPromise(prom);
 }
-console.log(song);
+
+printSongListAwait(songList);
+// maaf ya kk sebelumya ni ak nanya soal materi yang kemarin
+// mo nanya soal nyusun flex css :v
+
+// itu sebelum kita aplikasikan ke html css, tu didesain di figma(atau semacamnya) dlu bru implementasi atau langsung cari template di google trus tinggal kita modiv isiannya?
+// soalnya klo bikin dari 0 entah kenapa selalu acak-acakan :3

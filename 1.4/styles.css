@@ -1,0 +1,40 @@
+/* Apply appropriate styles to create a Spotify-like layout */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+background-color: #000;
+color: #fff;
+padding: 20px;
+}
+
+nav img {
+height: 30px;
+vertical-align: middle;
+}
+
+main {
+padding: 20px;
+}
+
+h2 {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.playlist {
+/* Style individual playlists */
+}
+
+#discover-weekly ul,
+#release-radar ul {
+list-style-type: none;
+padding: 0;
+}
+
+/* Add more CSS rules for styling sections, playlists, etc. */
