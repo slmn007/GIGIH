@@ -98,7 +98,7 @@ body {
 
 }
 
-.recent-list {
+.recent-list, .myPlaylist-song{
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -116,14 +116,14 @@ body {
 }
 
 .song-list, .playlist-song {
-    display: flex;
-    flex-direction: column;
-    max-height: 85vh;
-    /* min-height: 200px; */
-    overflow-y:scroll;
+    margin-top: 10px;
+    height: 82vh;
+    width: 100%;
+    padding: 0 20px;
+    overflow-y: scroll;
     visibility: hidden;
-    padding: 10px;
 }
+
 .song-list p, .playlist-song p {
     color:#ffffff7c;
     font-family: Inter;
@@ -131,10 +131,10 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 10px 0;
 }
 
 .song-list p, .playlist-song p, .song-list:hover, .playlist-song:hover{
-    overflow-y: scroll;
     visibility: visible;
 }
 
@@ -151,19 +151,17 @@ body {
     border-radius: 10px;
 }
 
+.song {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 40% 10%;
+    padding: 3px 10px;
+}
 
 .song:hover {
-    border-radius: 2px;
-    background: rgba(255, 255, 255, 0.20);
-    margin-right: 0;
+    background-color: rgba(255, 255, 255, 0.20);
 }
 
-.song {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5px 20px;
-}
 
 .user-v {
     grid-row: 1 / 2;
@@ -265,10 +263,10 @@ body {
     line-height: normal;
 }
 
-.myPlaylist-song {
-    height: 100%;
-    padding: 10px;
-}
 .playlist-song {
-    height: 50vh;
+    height: 45vh;
+}
+
+.durasi {
+    text-align: right;
 }
