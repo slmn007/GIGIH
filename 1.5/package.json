@@ -1,0 +1,17 @@
+{
+  "name": "1.4",
+  "version": "1.0.0",
+  "description": "\"First Project NodeJS (Hello World!)\"",
+  "main": "index.js",
+  "scripts": {
+    "start": ".\\node_modules\\.bin\\nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
