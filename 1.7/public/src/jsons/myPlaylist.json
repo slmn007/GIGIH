@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "artist": [
+      "Eve"
+    ],
+    "title": "Kakai Kitan",
+    "duration": "03:43",
+    "url": "music/eve-kakaiKitan-343.mp3",
+    "count": 5
+  },
+  {
+    "id": 2,
+    "artist": [
+      "SPYAIR"
+    ],
+    "title": "Imagination",
+    "duration": "03:07",
+    "url": "music/spyair-imagination-307.mp3",
+    "count": 5
+  },
+  {
+    "id": 3,
+    "artist": [
+      "3-Nen E-Gumi Utatan"
+    ],
+    "title": "Bye Bye Yesterday",
+    "duration": "04:10",
+    "url": "music/3nenEgumiUtatan-ByeByeYesterday-410.mp3",
+    "count": 9
+  }
+]

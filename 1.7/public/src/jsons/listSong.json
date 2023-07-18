@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "artist": [
+      "Eve"
+    ],
+    "title": "Kakai Kitan",
+    "duration": "03:43",
+    "url": "music/eve-kakaiKitan-343.mp3",
+    "count": 5
+  },
+  {
+    "id": 2,
+    "artist": [
+      "SPYAIR"
+    ],
+    "title": "Imagination",
+    "duration": "03:07",
+    "url": "music/spyair-imagination-307.mp3",
+    "count": 5
+  },
+  {
+    "id": 3,
+    "artist": [
+      "3-Nen E-Gumi Utatan"
+    ],
+    "title": "Bye Bye Yesterday",
+    "duration": "04:10",
+    "url": "music/3nenEgumiUtatan-ByeByeYesterday-410.mp3",
+    "count": 9
+  },
+  {
+    "id": 4,
+    "artist": [
+      "Ikimono Gakari"
+    ],
+    "title": "Blue Bird",
+    "duration": "03:43",
+    "url": "music/Ikimonogakari-BlueBird-343.mp3",
+    "count": 1
+  },
+  {
+    "id": 5,
+    "artist": [
+      "Rookiez Is Punk'd"
+    ],
+    "title": "Complication",
+    "duration": "04:49",
+    "url": "music/Rookiez-Complication-449.mp3",
+    "count": 6
+  },
+  {
+    "id": 6,
+    "artist": [
+      "BURNOUT SYNDROMES"
+    ],
+    "title": "Hikari Are",
+    "duration": "04:13",
+    "url": "music/BURNOUTSYNDROMES-Hikari Are-413.mp3",
+    "count": 7
+  },
+  {
+    "id": 7,
+    "artist": [
+      "Linken Horizon"
+    ],
+    "title": "Guren no Yumiya",
+    "duration": "03:27",
+    "url": "music/LinkedHorizon-GurenNoYumiya-327.mp3",
+    "count": 2
+  },
+  {
+    "id": 8,
+    "artist": [
+      "Aimer"
+    ],
+    "title": "Zankyou Sanka",
+    "duration": "03:25",
+    "url": "music/Aimer-ZankyouSanka-305.mp3",
+    "count": 12
+  },
+  {
+    "id": 9,
+    "artist": [
+      "LiSA",
+      "EIR AOI"
+    ],
+    "title": "Ignite and Rising Hope (Concert)",
+    "duration": "05:47",
+    "url": "music/LiSAxEIRAOI-IgniteandRisingHopeLive-547.mp3",
+    "count": 4
+  }
+]
