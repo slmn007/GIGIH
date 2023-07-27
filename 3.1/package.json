@@ -1,0 +1,15 @@
+{
+  "name": "1.7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playground-1.mongodb.js",
+  "scripts": {
+    "start": "nodemon playground-1.mongodb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
